@@ -65,81 +65,81 @@ Overall, these training parameters were selected to achieve a balance between tr
 * **Description:** Pansies are popular garden flowers recognized by their large, colorful blooms and distinctive petal patterns. They are commonly planted in flower beds and containers.
 
 ### 8. Foxglove
-![Foxglove](https://github.com/zhairamilan/Plant_Species_Image_Classification/blob/main/8_giganteum/246.png?raw=true)
+![Foxglove](008.jpg)
 * **Common Name:** Foxglove
 * **Scientific Name:** *Digitalis purpurea*
 * **Description:** Foxglove produces tall spikes of bell-shaped flowers in shades of purple, pink, and white. It is widely cultivated for its ornamental beauty in cottage gardens.
   
 ### 9. Peony
-![Peony](https://github.com/zhairamilan/Plant_Species_Image_Classification/blob/main/dataset/9_green_dragon/015.png?raw=true)
+![Peony](009.jpg)
 * **Common Name:** Peony
 * **Scientific Name:** 'Paeonia lactiflora'
 * **Description:** Peonies are perennial ornamental plants admired for their large, fragrant flowers. They are commonly used in landscaping and floral arrangements.
 
 ### 10. Anemone
-![Anemone](https://github.com/zhairamilan/Plant_Species_Image_Classification/blob/main/10_epipremnum_variegated/012.png?raw=true)
+![Anemone](010.jpg)
 * **Common Name:** Anemone
 * **Scientific Name:** 'Anemone coronaria' 
 * **Description:** Anemones are flowering plants that produce bright, colorful blooms with contrasting dark centers. They are popular ornamental flowers in gardens and bouquets.
 
   
 ### 11. Ranunculus
-![Ranunculus](https://github.com/zhairamilan/Plant_Species_Image_Classification/blob/main/dataset/11_golden_crocodile/037.png?raw=true)
+![Ranunculus](011.jpg)
 * **Common Name:** Ranunculus
 * **Scientific Name:** 'Ranunculus asiaticus'
 * **Description:** Ranunculus is known for its layered, rose-like flowers available in many vibrant colors. It is widely cultivated for ornamental gardens and cut flowers.
 
 ### 12. Freesia
-![Freesia](https://github.com/zhairamilan/Plant_Species_Image_Classification/blob/main/dataset/12_bipinnatifidum/024.png?raw=true)
+![Freesia](012.jpg)
 * **Common Name:** Freesia
 * **Scientific Name:** 'Freesia refracta'
 * **Description:** Freesia is a fragrant flowering plant with elegant trumpet-shaped blossoms. It is commonly grown for ornamental purposes and used in floral decorations.
 
 ### 13. Maranta (Prayer Plant)
-![Maranta (Prayer Plant)(https://github.com/zhairamilan/Plant_Species_Image_Classification/blob/main/dataset/13_bob_cee/004.png?raw=true)
+![Maranta (Prayer Plant)](013.jpg)
 * **Common Name:** Maranta (Prayer Plant)
 * **Scientific Name:** 'Maranta leuconeura'
 * **Description:** The prayer plant is a tropical ornamental plant known for its decorative leaves that fold upward at night, resembling hands in prayer.
 
 ### 14. Ficus Benjamina
-![Ficus Benjamina](https://github.com/zhairamilan/Plant_Species_Image_Classification/blob/main/dataset/14_florida_green/035.png?raw=true)
+![Ficus Benjamina](014.jpg)
 * **Common Name:** Ficus Benjamina
 * **Scientific Name:**'Ficus benjamina'
 * **Description:** Ficus benjamina is a popular ornamental indoor tree with glossy green leaves and gracefully arching branches. It is commonly used in homes and offices.
 
 ### 15.Chinese Evergreen
-![Chinese Evergreen](https://github.com/zhairamilan/Plant_Species_Image_Classification/blob/main/dataset/15_malay_gold/Image_5.jpg?raw=true)
+![Chinese Evergreen](015.jpg)
 * **Common Name:** Chinese Evergreen
 * **Scientific Name:** 'Aglaonema commutatum'
 * **Description:** Chinese evergreen is an ornamental foliage plant appreciated for its attractive variegated leaves and ability to thrive under low-light indoor conditions.
 
 ### 16. Polka Dot Plant
-![Polka Dot Plant](https://github.com/zhairamilan/Plant_Species_Image_Classification/blob/main/dataset/16_neon_pothos/002.png?raw=true)
+![Polka Dot Plant](016.jpg)
 * **Common Name:** Polka Dot Plant
 * **Scientific Name:** 'Hypoestes phyllostachya'
 * **Description:** The polka dot plant is a colorful ornamental foliage plant recognized for its spotted pink, white, or red leaves, making it popular for indoor decoration.
 
 ### 17. Nerve Plant (Fittonia)
-![Nerve Plant (Fittonia)](https://github.com/zhairamilan/Plant_Species_Image_Classification/blob/main/17_mayoi/001.jpg?raw=true)
+![Nerve Plant (Fittonia)](017.jpg)
 * **Common Name:** Nerve Plant (Fittonia)
 * **Scientific Name:** 'Fittonia albivenis'
 * **Description:** Fittonia is a tropical ornamental plant distinguished by its striking leaf veins in white, pink, or red. It is commonly grown as a houseplant.
 
 ### 18.Japanese Maple
-![Japanese Maple](https://github.com/zhairamilan/Plant_Species_Image_Classification/blob/main/18_painted_lady/001.png?raw=true)
+![Japanese Maple](018.jpg)
 * **Common Name:** Japanese Maple
 * **Scientific Name:** 'Acer palmatum'
 * **Description:** Japanese maple is an ornamental tree valued for its finely divided leaves and brilliant seasonal colors, making it a centerpiece in landscape design.
 
   
 ### 19. Golden Shower
-![Golden Shower](https://github.com/zhairamilan/Plant_Species_Image_Classification/blob/main/19_bipennifolium_aurea/001.png?raw=true)
+![Golden Shower](019.jpg)
 * **Common Name:** Golden Shower
 * **Scientific Name:** 'Aurea'
 * **Description:**The golden shower tree is a tropical ornamental tree famous for its long hanging clusters of bright yellow flowers. It is widely planted along roadsides and parks.
 
 ### 20. Passion Flower
-![Passion Flower](https://github.com/zhairamilan/Plant_Species_Image_Classification/blob/main/20_folden_melonii/001.png?raw=true)
+![Passion Flower](020.jpg)
 * **Common Name:** Passion Flower
 * **Scientific Name:** 'Passiflora incarnata'
 * **Description:** The passion flower is a climbing ornamental vine recognized for its unique and intricate flowers. It is commonly cultivated on fences, trellises, and garden landscapes.
