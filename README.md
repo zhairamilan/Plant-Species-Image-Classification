@@ -53,7 +53,7 @@ Overall, these training parameters were selected to achieve a balance between tr
 * **Description:** Impatiens is a colorful flowering ornamental plant that grows well in shaded areas. It produces abundant blooms in various colors throughout the growing season.
 
 ### 6. Snapdragon
-![Snapdragon](https://github.com/zhairamilan/Plant_Species_Image_Classification/blob/main/dataset/6_jungle_boogie/007.png?raw=true)
+![Snapdragon](006.jpg)
 * **Common Name:** Snapdragon
 * **Scientific Name:**  'Antirrhinum majus'
 * **Description:** Snapdragons are ornamental flowering plants known for their tall flower spikes and colorful blossoms. Their flowers resemble the face of a dragon when gently squeezed.
