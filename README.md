@@ -23,7 +23,7 @@ Overall, these training parameters were selected to achieve a balance between tr
 ## B. Plant Species Section
 
 ### 1. Echeveria
-![Echeveria](https://github.com/zhairamilan/Plant_Species_Image_Classification/blob/main/dataset/1_prince_of_orange/1.jpg?raw=true)
+![Echeveria](001.jpg)
 * **Common Name:** Echeveria
 * **Scientific Name:** *Ornamental Plants* 'Echeveria elegans'
 * **Description:** Echeveria is a succulent ornamental plant recognized by its compact rosette of thick, fleshy leaves. It is popular for indoor decoration, rock gardens, and container planting because of its attractive appearance and drought tolerance..
