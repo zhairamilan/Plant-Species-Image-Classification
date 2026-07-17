@@ -3,8 +3,7 @@ Domanico_Laboratory_Work_2A
 # Plant_Species_Image_Classification
 Laboratory Work 2-A | Image Classification Using Teachable Machine
 ---
-# Google Drive Link: [https://drive.google.com/drive/folders/1jPQKnP-vnhCB6xq0iRyN5vXNMneHgDym?usp=drive_link](https://drive.google.com/drive/folders/1pukh1bTZ4dfP0IpW8uW9olXx32hO70Vk)
-# Github Repo Link:  https://github.com/zhairamilan/Plant_Species_Image_Classification
+# Google Drive Link: https://drive.google.com/drive/folders/1pukh1bTZ4dfP0IpW8uW9olXx32hO70Vk
 
 ## A. Project Overview
 **Project Description and Project Purpose:** 
@@ -157,13 +156,15 @@ Overall, these training parameters were selected to achieve a balance between tr
 ## D. Model Evaluation
 
 ### Confusion Matrix
-![Confusion Matrix](https://github.com/zhairamilan/Plant_Species_Image_Classification/blob/main/Plant-Species-Image-Classification/screenshots/confusion_matrix.PNG?raw=true)
+![Confusion Matrix](2/confusion_matrix.PNG)
 
 ### Accuracy Per Class
-![Accuracy Per Class](https://github.com/zhairamilan/Plant_Species_Image_Classification/blob/main/Plant-Species-Image-Classification/screenshots/accuracy_per_class.PNG?raw=true)
+![Accuracy Per Class](2/accuracy_per_class.PNG)
 
 ### Overall Model Accuracy
-![Overall Accuracy](https://github.com/zhairamilan/Plant_Species_Image_Classification/blob/main/Plant-Species-Image-Classification/screenshots/overall_accuracy.PNG?raw=true)
+![Overall Accuracy](2/accuracy_per_epoch.PNG,) 
+![Overall Accuracy](2/loss_per_epoch.PNG) 
+
 
 ---
 
@@ -171,34 +172,34 @@ Overall, these training parameters were selected to achieve a balance between tr
 
 Below are 10 live testing screenshots from the Teachable Machine Preview section, demonstrating the model predicting species on unseen images.
 
-1. ![Test 1](https://github.com/zhairamilan/Plant_Species_Image_Classification/blob/main/Plant-Species-Image-Classification/screenshots/1.PNG?raw=true)
-2. ![Test 2](https://github.com/zhairamilan/Plant_Species_Image_Classification/blob/main/Plant-Species-Image-Classification/screenshots/2.PNG?raw=true)
-3. ![Test 3](https://github.com/zhairamilan/Plant_Species_Image_Classification/blob/main/Plant-Species-Image-Classification/screenshots/3.PNG?raw=true)
-4. ![Test 4](https://github.com/zhairamilan/Plant_Species_Image_Classification/blob/main/Plant-Species-Image-Classification/screenshots/4.PNG?raw=true)
-5. ![Test 5](https://github.com/zhairamilan/Plant_Species_Image_Classification/blob/main/Plant-Species-Image-Classification/screenshots/5.PNG?raw=true)
-6. ![Test 6](https://github.com/zhairamilan/Plant_Species_Image_Classification/blob/main/Plant-Species-Image-Classification/screenshots/6.PNG?raw=true)
-7. ![Test 7](https://github.com/zhairamilan/Plant_Species_Image_Classification/blob/main/Plant-Species-Image-Classification/screenshots/7.PNG?raw=true)
-8. ![Test 8](https://github.com/zhairamilan/Plant_Species_Image_Classification/blob/main/Plant-Species-Image-Classification/screenshots/8.PNG?raw=true)
-9. ![Test 9](https://github.com/zhairamilan/Plant_Species_Image_Classification/blob/main/Plant-Species-Image-Classification/screenshots/9.PNG?raw=true)
-10. ![Test 10](https://github.com/zhairamilan/Plant_Species_Image_Classification/blob/main/Plant-Species-Image-Classification/screenshots/19.PNG?raw=true)
+1. ![Test 1](2/1.PNG)
+2. ![Test 2](2/2.PNG)
+3. ![Test 3](2/3.PNG)
+4. ![Test 4](2/4.PNG)
+5. ![Test 5](2/5.PNG)
+6. ![Test 6](2/6.PNG)
+7. ![Test 7](2/7.PNG)
+8. ![Test 8](2/8.PNG)
+9. ![Test 9](2/9.PNG)
+10. ![Test 10](2/10.PNG)
 
 ---
 
 ## F. Reflection Questions
 
 **1. How did the number of images per class affect your model’s accuracy?**
-- In my experience, hitting the 250-image mark per species was essential for the model to actually learn the differences in leaf texture and variegation. Since many Philodendrons look similar, having a larger dataset allowed the model to see the plants under different lighting conditions. I noticed that for the classes where the scraper picked up more varied images, the confidence score in the preview section was much higher. If I had used fewer images, I don't think the model would have been able to distinguish between the subtle green-on-green patterns of some of the climbing varieties.
+- Having 250 images for each plant species significantly improved the model's accuracy by providing a balanced dataset for training. Since every class contained the same number of images, the model was able to learn the visual characteristics of each plant without favoring one class over another. The variety of images captured under different angles and lighting conditions also helped the model generalize better when classifying new images.
 
 **2. Which plant species were most commonly misclassified and why?**
-- The model struggled the most with the Philodendron Birkin and the Epipremnum/Pothos varieties. For the Birkin, it occasionally got confused if the training data included the "Rojo Congo" version (which is the parent plant) or if the pinstripes weren't clear. There was also a lot of confusion between the Neon Pothos and the Malay Gold because they both share that bright, fluorescent chartreuse color. The model seems to prioritize color over leaf shape in some cases, which led to these mix-ups between the trailing and upright species.
+- Based on the confusion matrix, the model most commonly misclassified English Ivy (Hedera helix) and Maranta (Prayer Plant) (Maranta leuconeura) because both species have broad green leaves with similar textures and overlapping visual features. Likewise, Peony (Paeonia lactiflora) and Ranunculus (Ranunculus asiaticus) were occasionally confused due to their layered flower petals and similar bloom structures. These similarities made it more challenging for the model to distinguish between them.
 
 **3. How did changing the epochs, batch size, or learning rate affect the training results?**
-- I kept the parameters at the suggested levels (50 epochs, 16 batch size, 0.001 learning rate), but I noticed that the batch size was particularly important for my computer's performance. When the browser was processing the images, I could tell the system was under a lot of stress. Sticking to a batch size of 16 seemed to be the "sweet spot" that allowed the model to update its weights frequently enough to reach high accuracy without crashing the Chrome tab. If I had lowered the learning rate further, it felt like the 50 epochs wouldn't have been enough to reach the high accuracy I eventually saw.
+- The model was trained using 100 epochs, a batch size of 16, and a learning rate of 0.001. Increasing the number of epochs allowed the model to learn more detailed features from the dataset, which improved training accuracy. A batch size of 16 provided stable learning while maintaining efficient memory usage. The learning rate of 0.001 enabled gradual and consistent updates to the model's weights, resulting in smooth convergence without causing unstable training.
   
 **4. What challenges did you encounter during dataset collection and labeling?**
-- This was the most difficult part of the lab. My biggest challenge was "data noise" caused by search engines. For example, when searching for "Birkin," the scraper initially pulled hundreds of photos of luxury handbags instead of the Philodendron Birkin plant. I had to spend a lot of time refining my Python script's search queries to filter these out. I also ran into several Windows permission errors (WinError 32) while trying to rename and organize the files, because the system wouldn't let Python touch the images while they were being previewed in my folder.
+- The biggest challenge was collecting 250 high-quality images for each of the 20 plant species. It was important to ensure that the images were clear, free of duplicates, and represented different viewing angles, lighting conditions, and backgrounds. Another challenge was organizing and labeling thousands of images correctly before uploading them to Google Teachable Machine. Preparing the dataset required considerable time and careful attention to maintain consistency across all classes.
 
 **5. If you were to improve your model, what specific changes would you make and why?**
-- If I were to do this again, I would spend more time on manual "data pruning." Even with a good scraper, some images contained watermarks, human hands holding the pots, or multiple different plants in the background, which can confuse the AI. I would also use the image-shrinking script I developed right from the start. By resizing everything to 224x224 before uploading, the training process would be much faster and the browser wouldn't freeze, allowing me to potentially test even more than 20 species or more images per class.
+- If I were to improve the model, I would collect more images for each plant species with greater diversity in lighting conditions, camera angles, backgrounds, and plant growth stages. I would also include more close-up images of leaves, flowers, and stems to help the model learn finer distinguishing features. Additionally, I would experiment with different training parameters, such as increasing the number of epochs or adjusting the learning rate, to determine whether the model's accuracy and overall performance could be further improved.
 
 
