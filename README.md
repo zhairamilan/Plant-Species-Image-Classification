@@ -47,7 +47,7 @@ Overall, these training parameters were selected to achieve a balance between tr
 * **Description:** English ivy is an evergreen climbing vine valued for its dense foliage. It is commonly grown as a ground cover, hanging plant, or decorative wall climber.
 
 ### 5.Impatiens
-![Impatiens](https://github.com/zhairamilan/Plant_Species_Image_Classification/blob/main/dataset/5_paraiso_verde/002.png?raw=true)
+![Impatiens](005.jpg)
 * **Common Name:** Impatiens
 * **Scientific Name:** 'Impatiens walleriana'
 * **Description:** Impatiens is a colorful flowering ornamental plant that grows well in shaded areas. It produces abundant blooms in various colors throughout the growing season.
