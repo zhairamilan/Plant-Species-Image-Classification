@@ -59,7 +59,7 @@ Overall, these training parameters were selected to achieve a balance between tr
 * **Description:** Snapdragons are ornamental flowering plants known for their tall flower spikes and colorful blossoms. Their flowers resemble the face of a dragon when gently squeezed.
 
 ### 7. Pansy
-![Pansy](https://github.com/zhairamilan/Plant_Species_Image_Classification/blob/main/dataset/7_green_emerald/002.png?raw=true)
+![Pansy](007.jpg)
 * **Common Name:** Pansy
 * **Scientific Name:** 'Viola × wittrockiana'
 * **Description:** Pansies are popular garden flowers recognized by their large, colorful blooms and distinctive petal patterns. They are commonly planted in flower beds and containers.
