@@ -41,7 +41,7 @@ Overall, these training parameters were selected to achieve a balance between tr
 * **Description:** Wisteria is a flowering vine known for its cascading clusters of fragrant purple, blue, or white flowers. It is widely used on pergolas, fences, and garden trellises. 
 
 ### 4. English Ivy
-![English Ivy](https://github.com/zhairamilan/Plant_Species_Image_Classification/blob/main/dataset/4_moonlight/004.jpg?raw=true)
+![English Ivy](004.jpg)
 * **Common Name:** English Ivy
 * **Scientific Name:**  'Hedera helix'
 * **Description:** English ivy is an evergreen climbing vine valued for its dense foliage. It is commonly grown as a ground cover, hanging plant, or decorative wall climber.
