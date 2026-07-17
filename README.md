@@ -29,7 +29,7 @@ Overall, these training parameters were selected to achieve a balance between tr
 * **Description:** Echeveria is a succulent ornamental plant recognized by its compact rosette of thick, fleshy leaves. It is popular for indoor decoration, rock gardens, and container planting because of its attractive appearance and drought tolerance..
 
 ### 2. Barrel Cactus
-![Barrel Cactus](https://github.com/zhairamilan/Plant_Species_Image_Classification/blob/main/dataset/2_birkin/001.jpg?raw=true)
+![Barrel Cactus](002.jpg)
 * **Common Name:** Barrel Cactus
 * **Scientific Name:** *Ornamental Plants* 'Echinocactus grusonii'
 * **Description:** A stunning, slow-growing houseplant famous for its dark green, glossy leaves with intricate, creamy-white pinstripes. It features an upright, self-heading growth habit.
