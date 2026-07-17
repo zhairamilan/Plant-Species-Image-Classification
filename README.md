@@ -35,7 +35,7 @@ Overall, these training parameters were selected to achieve a balance between tr
 * **Description:** A stunning, slow-growing houseplant famous for its dark green, glossy leaves with intricate, creamy-white pinstripes. It features an upright, self-heading growth habit.
 
 ### 3. Wisteria
-![Wisteria](https://github.com/zhairamilan/Plant_Species_Image_Classification/blob/main/dataset/3_brasil/002.jpg?raw=true)
+![Wisteria](003.jpg)
 * **Common Name:** Wisteria
 * **Scientific Name:** *Ornamental Plants* 'Wisteria sinensis'
 * **Description:** Wisteria is a flowering vine known for its cascading clusters of fragrant purple, blue, or white flowers. It is widely used on pergolas, fences, and garden trellises. 
