@@ -3,7 +3,9 @@ Domanico_Laboratory_Work_2A
 # Plant_Species_Image_Classification
 Laboratory Work 2-A | Image Classification Using Teachable Machine
 ---
-# Google Drive Link: https://drive.google.com/drive/folders/1pukh1bTZ4dfP0IpW8uW9olXx32hO70Vk
+# Google Drive Link: [https://drive.google.com/drive/folders/1pukh1bTZ4dfP0IpW8uW9olXx32hO70Vk](https://drive.google.com/drive/folders/1pukh1bTZ4dfP0IpW8uW9olXx32hO70Vk?usp=drive_link)
+
+# Data Set Link: https://drive.google.com/drive/folders/1RFSVFxCPVxPEIwnEVuuvsDb3WvozSXaN?usp=drive_link
 
 ## A. Project Overview
 **Project Description and Project Purpose:** 
